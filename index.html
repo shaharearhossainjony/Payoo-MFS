@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payoo MFS</title>
+    <!-- daisyui cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwind cdn -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class=" bg-[#f4f5f7] h-[100vh] flex justify-center items-center  ">
+
+    <form class="border-2  border-red-500 rounded-3xl bg-white w-[402px] ">
+        <div class="m-[32px]">
+            <label for="" class="font-medium text-[16px] ">Mobile Number</label>
+            <br>
+            <input type="text" placeholder="Enter Your Number" class="input bg-[#f4f5f7] rounded-[32px] " />
+            <div>
+            <label for="" class="font-medium text-[16px]   ">4 Digit Pin</label>
+            <br>
+            <input type="text" placeholder="Enter 4 Digit Pin" class="input bg-[#f4f5f7] rounded-[32px]" />
+             </div>
+             <div><button class="btn bg-[#0874F2] text-white rounded-[32px] font-semibold text-[20px] w-full mt-[16px]">Login</button></div>
+             
+        </div>
+
+    </form>
     
 </body>
 </html>
