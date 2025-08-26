@@ -1,7 +1,7 @@
 // login button functionality 
 document.getElementById('loginButton').addEventListener('click', function(e){
     e.preventDefault();
-    const mobileNumber = 1771420235;
+    const mobileNumber = 17714202350;
     const fourDigitPin = 1133;
     const mobileNumberValue= document.getElementById('mobile-number').value;
     const mobileNumberConverted= parseInt(mobileNumberValue);
@@ -21,7 +21,3 @@ document.getElementById('loginButton').addEventListener('click', function(e){
 
 
 })
-
-// document.getElementById('logOutButton').addEventListener('click', function(){
-//     window.location.href=."/index.html"
-// })
