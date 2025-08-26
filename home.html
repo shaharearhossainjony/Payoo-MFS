@@ -25,33 +25,134 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-[#f4f5f7] h-[100vh]">
-    <div
-      class="min-h-[50px] max-w-lg mx-auto flex justify-between items-center border-b-1 border-gray-400 p-3"
-    >
-      <div class="flex justify-center items-center">
-        <img class="h-[50px]" src="./assets/Group.png" alt="" />
-        <div class="ml-3">
-          <h2 class="font-bold">$ <span>45000</span></h2>
-          <p class="text-[#08080880]">Available Balance</p>
+    <div class="max-w-lg mx-auto bg-white rounded-b-xl">
+      <div
+        class="min-h-[50px] max-w-lg mx-auto flex justify-between items-center border-b-1 border-gray-400 p-3"
+      >
+        <div class="flex justify-center items-center">
+          <img class="h-[50px]" src="./assets/Group.png" alt="" />
+          <div class="ml-3">
+            <h2 class="font-bold">$ <span>45000</span></h2>
+            <p class="text-[#08080880]">Available Balance</p>
+          </div>
+        </div>
+
+        <div class="">
+          <button id="logOutButton" class="btn text-[#08080880]">
+            <i
+              class="fa-solid fa-right-from-bracket rotate-180 text-gray-700"
+            ></i>
+            Log Out
+          </button>
         </div>
       </div>
 
-      <div class="">
-        <button id="logOutButton" class="btn text-[#08080880]">
-          <i
-            class="fa-solid fa-right-from-bracket rotate-180 text-gray-700"
-          ></i>
-          Log Out
-        </button>
+      <div class="max-w-lg mx-auto mt-8 p-3">
+        <h1 class="font-extrabold text-[24px]">🔥 Welcome to Payooo!</h1>
+        <p class="text-[#08080880]">
+          Enjoy easy and convenient financial services with us. Cashout charge
+          is low and
+        </p>
+      </div>
+
+      <div
+        class="min-h-[200px] items-center grid grid-cols-3 gap-8 max-w-lg mx-auto p-3"
+      >
+        <!-- card 1 -->
+        <div class="border-2 border-[#e6e6e6] p-3 rounded-xl">
+          <img class="mx-auto" src="./assets/wallet1.png" alt="" />
+          <h2 class="text-center font-bold">Add Money</h2>
+        </div>
+
+        <!-- card 2 -->
+        <div class="border-2 border-[#e6e6e6] p-3 rounded-xl">
+          <img class="mx-auto" src="./assets/send1.png" alt="" />
+          <h2 class="text-center font-bold">Cashout</h2>
+        </div>
+
+        <!-- card 3 -->
+        <div class="border-2 border-[#e6e6e6] p-3 rounded-xl">
+          <img class="mx-auto" src="./assets/wallet1.png" alt="" />
+          <h2 class="text-center font-bold">Transfer Money</h2>
+        </div>
+
+        <!-- card 4 -->
+        <div class="border-2 border-[#e6e6e6] p-3 rounded-xl">
+          <img class="mx-auto" src="./assets/bonus1.png" alt="" />
+          <h2 class="text-center font-bold">Get Bonus</h2>
+        </div>
+
+        <!-- card 5 -->
+        <div class="border-2 border-[#e6e6e6] p-3 rounded-xl">
+          <img class="mx-auto" src="./assets/purse1.png" alt="" />
+          <h2 class="text-center font-bold">Pay Bill</h2>
+        </div>
+
+        <!-- card 6 -->
+        <div class="border-2 border-[#e6e6e6] p-3 rounded-xl">
+          <img class="mx-auto" src="./assets/transaction1.png" alt="" />
+          <h2 class="text-center font-bold">Transactions</h2>
+        </div>
       </div>
     </div>
 
-    <div class=" mt-8  " >
-        <h1 class=" font-extrabold text-[24px] " >🔥 Welcome to Payooo!</h1>
-        <p class="text-[#08080880] " >Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+    <div class="all-forms-section max-w-lg mx-auto ">
+      <!-- add money -->
+      <div class="">
+        <h2 class="font-semibold text-sm p-3">Add Money</h2>
+        <form action="" class="bg-white rounded-2xl p-8">
+          <div class="mb-3" >
+            <label for="" class="font-medium text-[16px]">Select A Bank</label>
+            <br />
+            <select class="select mt-3 bg-[#f4f5f7] rounded-3xl border-none w-full">
+              <option>AIBL Bank</option>
+              <option>Brac Bank</option>
+              <option>DBBL Bank</option>
+              <option>One Bank</option>
+              <option>SIBL Bank</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="" class="font-medium text-[16px]"
+              >Bank Account Number</label
+            >
+            <br />
+            <input
+              id=""
+              type="text"
+              placeholder="Enter 11 digit account number"
+              class="input mt-3 bg-[#f4f5f7] rounded-3xl border-none w-full"
+            />
+          </div>
+
+          <div>
+            <label for="" class="font-medium text-[16px]">Amount to Add</label>
+            <br />
+            <input
+              id=""
+              type="text"
+              placeholder="Add Amount to withdraw"
+              class="input mt-3 bg-[#f4f5f7] rounded-3xl border-none w-full"
+            />
+          </div>
+
+          <div>
+            <label for="" class="font-medium text-[16px]">Pin Number</label>
+            <br />
+            <input
+              id=""
+              type="text"
+              placeholder="Enter 4 digit pin number"
+              class="input mt-3 bg-[#f4f5f7] rounded-3xl border-none w-full"
+            />
+          </div>
+          <div class="my-3">
+            <button id="" class="btn bg-[#0874F2] text-white rounded-3xl font-semibold text-[20px] w-full mt-5">Add Money</button>
+          </div>
+        </form>
+      </div>
     </div>
-
-
-
+    <script src=""></script>
   </body>
 </html>

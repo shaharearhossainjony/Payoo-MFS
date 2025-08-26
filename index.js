@@ -22,6 +22,6 @@ document.getElementById('loginButton').addEventListener('click', function(e){
 
 })
 
-document.getElementById('logOutButton').addEventListener('click', function(){
-    window.location.href=."/index.html"
-})
+// document.getElementById('logOutButton').addEventListener('click', function(){
+//     window.location.href=."/index.html"
+// })
